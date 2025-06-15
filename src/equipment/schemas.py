@@ -14,7 +14,8 @@ class EquipmentStatus(str, Enum):
 class EquipmentObject(BaseModel):
     id: int
     name: str
-    lab_name: str
+    serial: str
+    lab_number: int
     student_name: str
     status: EquipmentStatus
     start_time: Optional[datetime]
@@ -23,7 +24,7 @@ class EquipmentObject(BaseModel):
 
 class SortEquipment(str, Enum):
     name = 'name'
-    lab_name = 'lab_name'
+    lab_number = 'lab_number'
     status = 'status'
     start_time = 'start_time'
     end_time = 'end_time'

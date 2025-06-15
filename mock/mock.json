@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Микроскоп",
+    "serial": "MIC-001",
+    "lab_number": 104,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 2,
+    "name": "Спектрометр",
+    "serial": "SPEC-002",
+    "lab_number": 102,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  }
+]
