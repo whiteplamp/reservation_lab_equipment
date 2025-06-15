@@ -24,7 +24,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/lab-equipment-booking.git
+git clone https://github.com/whiteplamp/reservation_lab_equipment.git
 cd lab-equipment-booking
 ```
 
