@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Микроскоп",
-    "serial": "MIC-001",
+    "name": "Осциллограф",
+    "serial": "ОСЦ-623",
     "lab_number": 104,
     "student_name": "",
     "status": "AVAILABLE",
@@ -11,9 +11,289 @@
   },
   {
     "id": 2,
-    "name": "Спектрометр",
-    "serial": "SPEC-002",
+    "name": "Микроскоп",
+    "serial": "МИК-665",
     "lab_number": 102,
+    "student_name": "Александр Михайлов",
+    "status": "BOOKED",
+    "start_time": "2025-04-17T16:00:00",
+    "end_time": "2025-04-17T19:00:00"
+  },
+  {
+    "id": 3,
+    "name": "Спектрометр",
+    "serial": "СПЕ-154",
+    "lab_number": 101,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 4,
+    "name": "Генератор сигналов",
+    "serial": "ГЕН-522",
+    "lab_number": 105,
+    "student_name": "Андрей Козлов",
+    "status": "BOOKED",
+    "start_time": "2025-03-23T09:00:00",
+    "end_time": "2025-03-23T11:00:00"
+  },
+  {
+    "id": 5,
+    "name": "Мультиметр",
+    "serial": "МУЛ-179",
+    "lab_number": 105,
+    "student_name": "Александр Михайлов",
+    "status": "BOOKED",
+    "start_time": "2024-12-05T09:00:00",
+    "end_time": "2024-12-05T11:00:00"
+  },
+  {
+    "id": 6,
+    "name": "Анализатор спектра",
+    "serial": "АНА-157",
+    "lab_number": 103,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 7,
+    "name": "Источник питания",
+    "serial": "ИСТ-668",
+    "lab_number": 104,
+    "student_name": "София Козлова",
+    "status": "BOOKED",
+    "start_time": "2024-12-28T11:00:00",
+    "end_time": "2024-12-28T14:00:00"
+  },
+  {
+    "id": 8,
+    "name": "Паяльная станция",
+    "serial": "ПАЯ-636",
+    "lab_number": 104,
+    "student_name": "Максим Новиков",
+    "status": "BOOKED",
+    "start_time": "2024-12-13T10:00:00",
+    "end_time": "2024-12-13T11:00:00"
+  },
+  {
+    "id": 9,
+    "name": "Термометр",
+    "serial": "ТЕР-895",
+    "lab_number": 102,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 10,
+    "name": "Хроматограф",
+    "serial": "ХРО-819",
+    "lab_number": 104,
+    "student_name": "Максим Новиков",
+    "status": "BOOKED",
+    "start_time": "2025-01-22T11:00:00",
+    "end_time": "2025-01-22T15:00:00"
+  },
+  {
+    "id": 11,
+    "name": "Фотометр",
+    "serial": "ФОТ-489",
+    "lab_number": 103,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 12,
+    "name": "Магнитометр",
+    "serial": "МАГ-944",
+    "lab_number": 101,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 13,
+    "name": "Центрифуга",
+    "serial": "ЦЕН-287",
+    "lab_number": 103,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 14,
+    "name": "Тепловизор",
+    "serial": "ТЕП-935",
+    "lab_number": 101,
+    "student_name": "Екатерина Новикова",
+    "status": "BOOKED",
+    "start_time": "2024-10-05T15:00:00",
+    "end_time": "2024-10-05T16:00:00"
+  },
+  {
+    "id": 15,
+    "name": "Сканирующий зондовый микроскоп",
+    "serial": "СКА-217",
+    "lab_number": 101,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 16,
+    "name": "Измерительный стенд",
+    "serial": "ИЗМ-557",
+    "lab_number": 102,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 17,
+    "name": "Робот-манипулятор",
+    "serial": "РОБ-707",
+    "lab_number": 105,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 18,
+    "name": "Ультразвуковой детектор",
+    "serial": "УЛЬ-145",
+    "lab_number": 104,
+    "student_name": "",
+    "status": "SERVICE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 19,
+    "name": "Газоанализатор",
+    "serial": "ГАЗ-457",
+    "lab_number": 104,
+    "student_name": "Екатерина Васильева",
+    "status": "BOOKED",
+    "start_time": "2024-08-15T10:00:00",
+    "end_time": "2024-08-15T13:00:00"
+  },
+  {
+    "id": 20,
+    "name": "Система очистки воды",
+    "serial": "СИС-700",
+    "lab_number": 105,
+    "student_name": "София Фёдорова",
+    "status": "BOOKED",
+    "start_time": "2024-06-13T10:00:00",
+    "end_time": "2024-06-13T11:00:00"
+  },
+  {
+    "id": 21,
+    "name": "Люминометр",
+    "serial": "ЛЮМ-480",
+    "lab_number": 102,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 22,
+    "name": "Плотномер",
+    "serial": "ПЛО-535",
+    "lab_number": 105,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 23,
+    "name": "Электроскоп",
+    "serial": "ЭЛЕ-624",
+    "lab_number": 101,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 24,
+    "name": "Тахометр",
+    "serial": "ТАХ-167",
+    "lab_number": 105,
+    "student_name": "",
+    "status": "AVAILABLE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 25,
+    "name": "Установщик чипов",
+    "serial": "УСТ-296",
+    "lab_number": 102,
+    "student_name": "Екатерина Новикова",
+    "status": "BOOKED",
+    "start_time": "2025-01-07T08:00:00",
+    "end_time": "2025-01-07T12:00:00"
+  },
+  {
+    "id": 26,
+    "name": "Ионный насос",
+    "serial": "ИОН-981",
+    "lab_number": 103,
+    "student_name": "",
+    "status": "SERVICE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 27,
+    "name": "Реактор ПЦР",
+    "serial": "РЕА-146",
+    "lab_number": 104,
+    "student_name": "Андрей Алексеев",
+    "status": "BOOKED",
+    "start_time": "2025-01-09T12:00:00",
+    "end_time": "2025-01-09T14:00:00"
+  },
+  {
+    "id": 28,
+    "name": "Пылеуловитель",
+    "serial": "ПЫЛ-533",
+    "lab_number": 101,
+    "student_name": "",
+    "status": "SERVICE",
+    "start_time": null,
+    "end_time": null
+  },
+  {
+    "id": 29,
+    "name": "Камера давления",
+    "serial": "КАМ-898",
+    "lab_number": 104,
+    "student_name": "Александр Михайлов",
+    "status": "BOOKED",
+    "start_time": "2025-03-23T15:00:00",
+    "end_time": "2025-03-23T19:00:00"
+  },
+  {
+    "id": 30,
+    "name": "Гигрометр",
+    "serial": "ГИГ-469",
+    "lab_number": 103,
     "student_name": "",
     "status": "AVAILABLE",
     "start_time": null,
